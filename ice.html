@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDAI - Earth // Cryosphere Telemetry &amp; Melting Ice Sheet Dynamics</title>
+  <meta name="description" content="Polar cryosphere monitoring covering Arctic pack ice extent, Antarctic grounding line instability, and glacial melt telemetry." />
+  <meta property="og:title" content="IDAI - Earth // Cryosphere Telemetry &amp; Melting Ice Sheet Dynamics" />
+  <meta property="og:description" content="Polar cryosphere monitoring covering Arctic pack ice extent, Antarctic grounding line instability, and glacial melt telemetry." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="ice">
+
+  <!-- 3D Cosmos Space Engine Container -->
+  <div id="webgl-container"></div>
+
+  <!-- FIXED GLOBAL NAVIGATION BAR -->
+  <header class="global-navbar">
+    <div class="nav-inner">
+      <div class="nav-trigger-wrap">
+        <button id="nav-trigger-btn" class="nav-trigger-btn" aria-haspopup="true">
+          <span class="pulse-dot"></span>
+          <span>Navigation</span>
+          <span class="caret">&#9662;</span>
+        </button>
+        <nav id="desktop-dropdown" class="desktop-dropdown">
+          <a href="index.html" class="dropdown-link">1. Home</a>
+          <a href="lungs.html" class="dropdown-link">2. Green Lungs</a>
+          <a href="ice.html" class="dropdown-link active-page">3. Melting Ice</a>
+          <a href="energy.html" class="dropdown-link">4. Dirty Energy</a>
+          <a href="fix.html" class="dropdown-link">5. Fix the Planet</a>
+        </nav>
+      </div>
+
+      <button id="mobile-hamburger-btn" class="mobile-hamburger-btn" aria-label="Toggle Navigation Drawer">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <a href="index.html" class="nav-brand">
+        <span class="pulse-dot"></span>
+        <span>IDAI - EARTH</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Mobile Vertical Glass Drawer & Backdrop Overlay -->
+  <div id="mobile-drawer-overlay" class="mobile-drawer-overlay"></div>
+  <aside id="mobile-drawer" class="mobile-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title">Navigation</div>
+      <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close Drawer">&times;</button>
+    </div>
+    <nav class="drawer-nav-list">
+      <a href="index.html" class="drawer-link">1. Home</a>
+      <a href="lungs.html" class="drawer-link">2. Green Lungs</a>
+      <a href="ice.html" class="drawer-link active-page">3. Melting Ice</a>
+      <a href="energy.html" class="drawer-link">4. Dirty Energy</a>
+      <a href="fix.html" class="drawer-link">5. Fix the Planet</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN SCROLLABLE CONTENT LAYER -->
+  <main class="content-layer">
+    <div class="container">
+
+      <!-- HERO HEADER -->
+      <section class="page-hero">
+        <div class="welcome-glass-box">
+          <div class="welcome-badge">CRYOSPHERE MATRIX // POLAR RADAR SURVEILLANCE</div>
+          <h1>POLAR ICE SHEETS &amp; GLACIAL RETREAT</h1>
+          <p class="welcome-intro">
+            Earth's cryosphere serves as the planetary refrigerator and sea-level anchor, reflecting solar radiation into outer space through the high-albedo effect. Our satellite radar interferometry tracks ice-mass loss across Greenland, the catastrophic grounding line retreat of Antarctica's Thwaites Glacier, and the degradation of perennial sea ice.
+          </p>
+          <div class="hero-meta-strip">
+            <div class="hero-meta-item">GREENLAND ICE LOSS: <span>-270 GT/YR</span></div>
+            <div class="hero-meta-item">ANTARCTICA ICE LOSS: <span>-150 GT/YR</span></div>
+            <div class="hero-meta-item">SEA LEVEL RISE RATE: <span>+4.4 MM/YR</span></div>
+            <div class="hero-meta-item">ALBEDO SHIFT: <span>-12.4% ARCTIC</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 15 DETAILED CARDS ALTERNATING THE 4 FORMATS -->
+      <section class="matrix-section">
+        <div class="section-header">
+          <h2>CRYOSPHERE TELEMETRY &amp; MARINE INSTABILITIES</h2>
+          <p class="section-subtitle">Real-time surveillance of basal friction, thermal hydrofracturing, and permafrost methane venting corridors.</p>
+        </div>
+
+        <!-- ROW 1: CARDS 1 & 2 -->
+        <div class="cards-dual-grid">
+          <!-- Card 1 (Format 1: Picture above, content below) -->
+          <article class="glass-card card-format-1">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Massive glowing blue ice shelf in Arctic ocean" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">ALBEDO-01 // ARCTIC</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">RADIATIVE REFLECTANCE</span>
+              <h3 class="card-title">Arctic Albedo Feedback &amp; Perennial Multi-Year Sea Ice Loss</h3>
+              <p class="card-paragraph">
+                The Arctic Ocean's surface ice cover acts as a massive thermal reflector, bouncing upwards of eighty-five percent of incoming solar shortwave energy back into outer space during continuous polar summer daylight. However, warming atmospheric temperatures and warmer Atlantic current intrusions have melted away thicker multi-year pack ice, replacing it with thin, fragile seasonal ice that disintegrates rapidly each spring. When bright reflective ice is replaced by dark, open ocean waters, surface solar absorption leaps from fifteen percent to over ninety percent, generating a potent thermal amplification feedback loop that heats regional waters and accelerates further ice loss. Satellites tracking Arctic ice volume demonstrate a steep seventy-five percent decline since the 1980s, fundamentally disrupting high-latitude weather patterns and weakening the polar jet stream.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 (Format 2: Content text above, picture below) -->
+          <article class="glass-card card-format-2">
+            <div class="card-content">
+              <span class="card-tag">MARINE INSTABILITY</span>
+              <h3 class="card-title">Thwaites Glacier Grounding Line Intrusion &amp; West Antarctica</h3>
+              <p class="card-paragraph">
+                Referred to by glaciologists as the Doomsday Glacier, Thwaites Glacier in West Antarctica holds enough land-based ice to raise global sea levels by over sixty-five centimeters directly, with its complete collapse potentially destabilizing surrounding ice sheets to trigger three meters of sea level rise. Sub-ice robotic probes deployed beneath the floating ice tongue have mapped deep channels where warm, dense Circumpolar Deep Water erodes the foundational grounding zone from below. Because the continental bedrock slopes downward toward the interior of the continent, the glacier rests upon a retrograde bed, meaning that continued melting moves the grounding line into progressively deeper, thicker ice. This mechanical geometry sets up a runaway destabilization process known as Marine Ice Sheet Instability, which cannot be reversed once critical anchor ridges are lost.
+              </p>
+            </div>
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Towering ice cliff face of Antarctic glacier" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">THWAITES-02 // WEST-WAIS</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 2: CARDS 3 & 4 (Single Column Wide Cards) -->
+        <div class="cards-single-col">
+          <!-- Card 3 (Format 3: Picture left, content right - Desktop flex row) -->
+          <article class="glass-card card-format-3">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/5045673/pexels-photo-5045673.jpeg" alt="Solitary polar bear walking on thinning sea ice floe" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">BIOTA-03 // APEX-TROPHIC</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">POLAR ECOSYSTEM DEGRADATION</span>
+              <h3 class="card-title">Apex Marine Predators &amp; Vanishing Sea Ice Platforms</h3>
+              <p class="card-paragraph">
+                The rapid shrinking of Arctic sea ice platforms is precipitating an existential crisis for ice-dependent apex predators, most notably polar bears (Ursus maritimus) and ringed seals. Polar bears rely entirely on sea ice as a physical hunting stage to ambuscade lipid-rich seals at breathing holes; as ice break-up occurs weeks earlier in spring and freeze-up arrives months later in autumn, bears are forced onto land for prolonged fasts that deplete their body fat reserves. GPS radio-collar telemetry records adult bears swimming hundreds of kilometers across open water in search of stable ice, resulting in high cub mortality rates and localized population crashes. The collapse of the sea ice platform cascades down through the marine food web, decimating under-ice sympagic algal communities that feed Arctic cod, seabirds, and bowhead whales.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 4 (Format 4: Content left, picture right - Desktop flex row-reverse) -->
+          <article class="glass-card card-format-4">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Greenland supraglacial melt lake of vivid turquoise water" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">GREENLAND-04 // MOULIN</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">SUBGLACIAL LUBRICATION</span>
+              <h3 class="card-title">Greenland Supraglacial Lakes &amp; Moulin Drainage Hydraulics</h3>
+              <p class="card-paragraph">
+                Across the interior plateau of the Greenland Ice Sheet, rising surface temperatures cause hundreds of massive supraglacial lakes to form each summer, pooling millions of cubic meters of meltwater atop the ice. When tension fractures open at the base of these turquoise lakes, the entire water volume can drain vertically through cylindrical conduits called moulins in a matter of hours, plunging over a kilometer down to the continental bedrock below. At the ice-bedrock interface, this pressurized liquid acts as an effective hydraulic lubricant, reducing basal friction and allowing colossal ice streams to surge forward toward coastal fjords at accelerated velocities. Seismic sensors detect frequent ice-quake swarms during moulin drainage events, demonstrating that surface warming directly drives kinematic ice discharge into ocean waters.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 3: CARDS 5 & 6 -->
+        <div class="cards-dual-grid">
+          <!-- Card 5 (Format 1: Picture above, content below) -->
+          <article class="glass-card card-format-1">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/753619/pexels-photo-753619.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Mountain glacier snaking through rocky alpine valley" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">HIMALAYA-05 // WATER TOWER</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">FRESHWATER TOWERS</span>
+              <h3 class="card-title">Third Pole Glacial Shrinkage &amp; Asian River Headwaters</h3>
+              <p class="card-paragraph">
+                The Hindu Kush Himalaya Tibetan Plateau region houses the largest concentration of snow and ice outside the polar zones, earning it the scientific moniker of Earth's Third Pole. These alpine glaciers supply seasonal baseflow to ten major river basins—including the Indus, Ganges, Brahmaputra, Yangtze, and Mekong—providing reliable drinking water and agricultural irrigation for nearly two billion people. Over the past four decades, accelerated warming has driven widespread mass loss across over eighty-five percent of Himalayan glaciers, initially triggering catastrophic Glacial Lake Outburst Floods (GLOFs) that wipe out downstream villages and hydroelectric dams. In the long run, as glacial volumes dwindle past peak water thresholds, dry-season river discharge will plummet, precipitating catastrophic water shortages and geopolitical resource conflicts across South and East Asia.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 6 (Format 2: Content text above, picture below) -->
+          <article class="glass-card card-format-2">
+            <div class="card-content">
+              <span class="card-tag">BIOCHEMICAL VENTING</span>
+              <h3 class="card-title">Permafrost Thermokarst Collapse &amp; Subsea Methane Hydrates</h3>
+              <p class="card-paragraph">
+                Underlying the Arctic tundra and the shallow continental shelves of the East Siberian Arctic Sea, vast reservoirs of organic carbon and crystalline methane clathrates have remained locked in frozen stasis since the last glacial maximum. As Arctic air warms at three times the global average rate, permafrost soils thaw, triggering ground subsidence, sinkhole formation, and thermokarst lake expansion. Anaerobic microbial communities metabolize the newly thawed ancient organic matter, producing massive surges of methane gas that bubble violently to the surface. Sonar soundings in the Laptev and Kara Seas reveal thousands of underwater flare plumes where destabilizing subsea clathrates release methane gas directly through the water column into the troposphere, threatening to unlock an uncontrollable biospheric carbon feedback loop.
+              </p>
+            </div>
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/2575002/pexels-photo-2575002.jpeg" alt="Tundra permafrost thaw slump crater with exposed mud" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">PERMA-06 // THERMOKARST</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 4: CARDS 7 & 8 (Single Column Wide Cards) -->
+        <div class="cards-single-col">
+          <!-- Card 7 (Format 3: Picture left, content right - Desktop flex row) -->
+          <article class="glass-card card-format-3">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Massive ice sheet calving into Antarctic sea" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">SHELF-07 // LARSEN-C</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">STRUCTURAL CALVING</span>
+              <h3 class="card-title">Antarctic Ice Shelf Hydrofracturing &amp; Larsen Dynamics</h3>
+              <p class="card-paragraph">
+                Floating ice shelves act as colossal structural buttresses that hold back interior continental ice sheets from discharging rapidly into the ocean. However, warming polar summers produce extensive surface meltwater ponds that fill existing crevasses; the immense hydrostatic pressure exerted by dense meltwater wedges open these cracks in a violent mechanical process known as hydrofracturing. Following the historic disintegrations of the Larsen A and Larsen B ice shelves on the Antarctic Peninsula, tributary glaciers behind them accelerated by up to eight hundred percent, pouring enormous quantities of grounded ice directly into the sea. Satellite radar interferometry monitoring the expansive Larsen C and Pine Island ice shelves reveals deep transverse rifting, indicating that further mega-calving events could compromise West Antarctica's peripheral buttressing architecture.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 8 (Format 4: Content left, picture right - Desktop flex row-reverse) -->
+          <article class="glass-card card-format-4">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Melting alpine glacier with exposed grey scree moraine" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">ALPS-08 // MORAINE</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">EUROPEAN CRYOSPHERE</span>
+              <h3 class="card-title">European Alps Glacial Disintegration &amp; Permafrost Rockfall</h3>
+              <p class="card-paragraph">
+                Glaciers across the European Alps experienced record-shattering volumetric losses in recent years, shedding over ten percent of their remaining ice mass during consecutive summer heatwaves. Saharan dust plumes blowing across the Mediterranean deposit dark reddish minerals onto alpine snowfields, drastically darkening their surface albedo and accelerating solar absorption and melting. High-altitude permafrost, which acts as the frozen geological mortar binding steep mountain peaks together, is thawing rapidly, causing catastrophic rockslides, collapse of iconic ridge summits, and destroying mountaineering infrastructure. Alpine climatologists predict that even under aggressive carbon reduction scenarios, more than eighty percent of Alpine ice volume will vanish by 2050, permanently altering the romantic mountain landscapes of Switzerland, France, Italy, and Austria.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 5: CARDS 9 & 10 -->
+        <div class="cards-dual-grid">
+          <!-- Card 9 (Format 1: Picture above, content below) -->
+          <article class="glass-card card-format-1">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/837267/pexels-photo-837267.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Underwater research submarine observing deep glacial wall" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">SUB-09 // OCEAN-INTERACTION</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">THERMAL OCEANOGRAPHY</span>
+              <h3 class="card-title">Circumpolar Deep Water Inundation &amp; Cavity Melting</h3>
+              <p class="card-paragraph">
+                Modern oceanographic glaciology demonstrates that the primary driver of rapid Antarctic ice mass loss is not atmospheric air warming, but rather thermal erosion caused by warm ocean currents infiltrating sub-ice cavities. Changes in prevailing circumpolar wind patterns, driven by greenhouse gas emissions and Antarctic ozone depletion, have forced warm, saline Circumpolar Deep Water over the edge of the continental shelf into deep glacial troughs. Autonomous ocean gliders diving beneath floating ice tongues measure water temperatures up to two degrees Celsius above the local freezing point, melting the underside of ice shelves at rates exceeding twenty meters per year. This intense basal melting thins the ice shelf from below, decoupling the ice from bedrock pinning points and allowing continental ice streams to accelerate into the Southern Ocean.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 10 (Format 2: Content text above, picture below) -->
+          <article class="glass-card card-format-2">
+            <div class="card-content">
+              <span class="card-tag">CLIMATIC REORGANIZATION</span>
+              <h3 class="card-title">Polar Vortex Instability &amp; Jet Stream Meandering</h3>
+              <p class="card-paragraph">
+                The rapid warming of the Arctic relative to the equator—a phenomenon known as Arctic amplification—dramatically reduces the temperature and atmospheric pressure gradient between high and mid-latitudes. This reduced thermal gradient deprives the circum-global polar jet stream of kinetic momentum, causing its typically tight, zonal flow to buckle into lazy, undulating Rossby waves with high north-south amplitudes. These sluggish atmospheric waves frequently become locked in stationary blocking patterns for weeks at a time, pumping tropical heatwaves deep into northern Canada and Siberia while spilling frigid polar vortex air masses into Texas, southern Europe, and East Asia. Far from causing uniform warming, polar cryospheric degradation triggers severe meteorological instability, unseasonal freeze disasters, and prolonged weather extremes across the Northern Hemisphere.
+              </p>
+            </div>
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Storm clouds and swirling polar winds over frozen ocean" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">JET-10 // ROSSBY-WAVE</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 6: CARDS 11 & 12 (Single Column Wide Cards) -->
+        <div class="cards-single-col">
+          <!-- Card 11 (Format 3: Picture left, content right - Desktop flex row) -->
+          <article class="glass-card card-format-3">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tropical glacier on Mount Kilimanjaro summit" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">TROP-11 // KILIMANJARO</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">EQUATORIAL GLACIOLOGY</span>
+              <h3 class="card-title">Tropical Glaciers: The Extinction of Equatorial Ice</h3>
+              <p class="card-paragraph">
+                Perched atop high-altitude equatorial summits in East Africa (Mount Kilimanjaro, Mount Kenya, the Rwenzoris), the tropical Andes of Peru and Bolivia, and the Carstensz Pyramid of Papua, tropical glaciers represent some of the most sensitive barometers of global climate change. These high-altitude ice caps have survived for millennia due to freezing temperatures at extreme elevations, but are now disappearing at breathtaking speed due to warming air and shifting atmospheric humidity regimes. Over ninety percent of the ice extent on Mount Kilimanjaro has vanished over the last century, with complete ice extinction projected within the coming decade. The total loss of tropical Andean glaciers threatens the drinking water supplies of capital cities like La Paz and Lima, decimating centuries-old indigenous agricultural traditions that depend upon glacial meltwater.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 12 (Format 4: Content left, picture right - Desktop flex row-reverse) -->
+          <article class="glass-card card-format-4">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/35249003/pexels-photo-35249003.jpeg" alt="Sea water flooding over coastal road and city seawall" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">COAST-12 // INUNDATION</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">SEA LEVEL RISE VECTORS</span>
+              <h3 class="card-title">Coastal Inundation &amp; Chronic High-Tide Sunny Day Flooding</h3>
+              <p class="card-paragraph">
+                The physical reality of melting land-based ice sheets combining with the thermal expansion of warming ocean seawater is that global mean sea level is rising at an accelerating rate, currently exceeding 4.4 millimeters per year. For hundreds of millions of people living in low-lying coastal cities and island nations, this rise does not arrive merely as catastrophic storm surges, but as chronic sunny day high-tide flooding that bubbles up through municipal storm drains and inundates roadways twice a day during full moons. Coastal saltwater intrusion contaminates municipal drinking water aquifers and corrodes subterranean building foundations, bridges, and electrical conduit grids. Urban adaptation requires multi-billion-dollar investments in sea walls, tidal floodgates, and elevated infrastructure, alongside painful long-term managed retreat strategies away from vulnerable coastlines.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- ROW 7: CARDS 13, 14 & 15 -->
+        <div class="cards-dual-grid">
+          <!-- Card 13 (Format 1: Picture above, content below) -->
+          <article class="glass-card card-format-1">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Deep glacial crevasse with ancient dark dust layers" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">PALEOCLIM-13 // ICE-CORE</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">PALEOCLIMATOLOGY</span>
+              <h3 class="card-title">Ice Core Paleoclimatology &amp; 800,000-Year Atmospheric Archives</h3>
+              <p class="card-paragraph">
+                Deep ice cores extracted from the interior plateaus of Antarctica and Greenland provide an unparalleled, pristine historical archive of Earth's past climate and atmospheric composition spanning over eight hundred thousand years. As annual layers of snow compact into solid glacial ice, they trap microscopic bubbles of ambient air, preserving actual physical samples of the atmosphere from past ice ages and warm interglacial periods. Chemical isotopic analyses of these fossil air bubbles prove beyond any scientific doubt that current atmospheric carbon dioxide concentrations (exceeding 424 ppm) and methane levels are radically higher than anything experienced during the entire evolutionary history of Homo sapiens. As modern glaciers melt, these irreplaceable natural climate archives are rapidly dissolving, spurring urgent international scientific missions to drill and preserve heritage ice cores in sub-zero polar vaults.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 14 (Format 2: Content text above, picture below) -->
+          <article class="glass-card card-format-2">
+            <div class="card-content">
+              <span class="card-tag">GEOMECHANICAL HAZARDS</span>
+              <h3 class="card-title">Glacial Lake Outburst Floods (GLOFs) &amp; Hazard Mitigation</h3>
+              <p class="card-paragraph">
+                As mountain glaciers retreat up high alpine valleys, they leave behind loose, unstable terminal moraines composed of boulders, gravel, and mud that dam up huge volumes of subglacial meltwater to form precariously perched glacial lakes. When high-altitude avalanches, rockfalls, or earthquakes strike these moraine dams, or when hydrostatic pressure breaches the dam wall, millions of cubic meters of water, ice, and debris are unleashed in a catastrophic Glacial Lake Outburst Flood (GLOF). These torrential mudflows surge down river valleys at highway speeds, pulverizing downstream bridges, villages, and critical hydroelectric power stations. Early warning radar telemetry, satellite lake volume monitoring, and civil engineering siphon drainage projects—such as the engineering efforts conducted at Lake Imja near Mount Everest—are essential to protect vulnerable downstream mountain populations from devastating flood waves.
+              </p>
+            </div>
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Raging glacial meltwater river carving through rocky canyon" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">GLOF-14 // SATELLITE-EARLY-WARN</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="cards-single-col">
+          <!-- Card 15 (Format 3: Picture left, content right - Desktop flex row) -->
+          <article class="glass-card card-format-3">
+            <div class="card-media">
+              <img src="https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Icebreaker research ship anchored beside colossal floating tabular iceberg" referrerpolicy="no-referrer" />
+              <div class="card-telemetry-badge">RADAR-15 // INTERFEROMETRY</div>
+            </div>
+            <div class="card-content">
+              <span class="card-tag">ORBITAL CRYOSPHERE RADAR</span>
+              <h3 class="card-title">Satellite Altimetry &amp; GRACE Gravimetry Measurements</h3>
+              <p class="card-paragraph">
+                Quantifying global ice mass loss with sub-millimeter precision requires a sophisticated constellation of orbital Earth observation satellites combining laser altimetry, synthetic aperture radar, and gravimetric sensing. The NASA ICESat-2 mission fires ten thousand green laser pulses per second to measure changes in ice surface elevation across the polar ice caps with pinpoint accuracy, capturing subtle height changes across dynamic glaciers. Concurrently, the GRACE Follow-On twin satellite mission measures microscopic fluctuations in Earth's gravitational pull caused by shifting water and ice masses, literally weighing the Greenland and Antarctic ice sheets from space. Together, these satellite systems prove that Greenland and Antarctica are currently shedding over four hundred billion metric tons of ice each year—an accelerating loss trajectory that emphasizes the critical imperative of curbing global emissions to stabilize the cryosphere.
+              </p>
+            </div>
+          </article>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FIXED GLOBAL FOOTER -->
+  <footer class="global-footer">
+    <div class="container">
+      <div class="footer-copy">
+        &copy; 2026 IDAI Universe. All rights reserved.<br />
+        Authored by Rayaan Tasnim<br />
+        Powered by IDAI Universe
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="space-engine.js"></script>
+</body>
+</html>
