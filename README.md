@@ -82,6 +82,8 @@ Terminating the "take-make-waste" linear extraction loop. Designing waste out of
 
 ---
 
-<code>© 2026 IDAI UNIVERSE. ALL RIGHTS RESERVED. // AUTHORED BY RAYAAN TASNIM // POWERED BY IDAI UNIVERSE</code>
+<code>© 2026 IDAI UNIVERSE. ALL RIGHTS RESERVED. 
+AUTHORED BY RAYAAN TASNIM
+ POWERED BY IDAI UNIVERSE</code>
 
 </div>
