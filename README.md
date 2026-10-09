@@ -30,7 +30,7 @@
 Execute primary environmental overrides. These four structural nodes form the foundation for biospheric stabilization and systemic ecological recovery.
 
 <sub>
-  <img src="https://images.unsplash.com/photo-1466611653911-9c517a250614?q=80&w=600&auto=format&fit=crop" width="48%" style="border-radius: 4px;" alt="Decentralized Clean Energy"/>
+  <img src="https://images.pexels.com/photos/35298887/pexels-photo-35298887.jpeg" width="48%" style="border-radius: 4px;" alt="Decentralized Clean Energy"/>
   &nbsp; &nbsp;
   <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=600&auto=format&fit=crop" width="48%" style="border-radius: 4px;" alt="Regenerative Agriculture"/>
 </sub>
@@ -83,7 +83,7 @@ Terminating the "take-make-waste" linear extraction loop. Designing waste out of
 ---
 
 <code>© 2026 IDAI UNIVERSE. ALL RIGHTS RESERVED. 
-AUTHORED BY RAYAAN TASNIM
+AUTHORED BY RAYAAN TASNIM;
  POWERED BY IDAI UNIVERSE</code>
 
 </div>
