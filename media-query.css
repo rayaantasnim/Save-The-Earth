@@ -1,0 +1,98 @@
+/* ==========================================================================
+   PRODUCTION OVERRIDES FOR FLUID RESPONSIVENESS (APPEND TO BOTTOM)
+   ========================================================================== */
+
+/* Tablet & Intermediate Screens */
+@media (max-width: 1100px) {
+  .container {
+    padding: 0 16px !important;
+  }
+  
+  .matrix-section {
+    margin-bottom: 40px !important;
+  }
+
+  .cards-dual-grid {
+    gap: 20px !important;
+    grid-template-columns: 1fr !important; /* Ensure grids collapse early */
+  }
+
+  .cards-single-col {
+    gap: 20px !important;
+  }
+}
+
+/* Smart Phones & Compact Viewports */
+@media (max-width: 767px) {
+  .content-layer {
+    padding-top: calc(var(--nav-height) + 15px) !important;
+    padding-bottom: 60px !important;
+  }
+
+  .welcome-glass-box {
+    padding: 20px 16px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .hero-meta-strip {
+    margin-top: 16px !important;
+    padding-top: 14px !important;
+    gap: 8px !important;
+  }
+
+  /* Compact glass card layout styling */
+  html body .glass-card {
+    margin-bottom: 0px !important;
+  }
+
+  .card-content {
+    padding: 16px 18px !important; /* Tightens up internal padding */
+  }
+
+  /* Fine-tuning typographic hierarchies to prevent ugly word-wrapping */
+  h1 {
+    margin-bottom: 12px !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+    margin-bottom: 16px !important;
+    padding-bottom: 6px !important;
+  }
+
+  h3 {
+    font-size: 1.05rem !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  p, .card-paragraph {
+    font-size: 0.88rem !important;
+    line-height: 1.6 !important;
+    text-align: justify !important; /* Prevents awkward justification spacing on small blocks */
+  }
+  
+  .global-footer {
+    margin-top: 40px !important;
+    padding: 30px 16px !important;
+  }
+}
+
+/* Micro-screens & Small Mobile Devices */
+@media (max-width: 414px) {
+  .container {
+    padding: 0 12px !important;
+  }
+
+  .card-content {
+    padding: 14px 14px !important;
+  }
+
+  .card-tag {
+    font-size: 0.68rem !important;
+    letter-spacing: 0.1em !important;
+  }
+
+  .card-title {
+    font-size: 1rem !important;
+  }
+}
